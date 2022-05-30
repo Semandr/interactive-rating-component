@@ -22,6 +22,7 @@ btnSubmit.addEventListener('click', () => {
   }
   visualization();
   paragraphValue.textContent = `You selected ${rating} out of ${radioBtns.length}`;
+
   // if you want to set a timer to return to the previous window for rating selection after 10 seconds, uncomment this function below --->
   // setTimeout(() => {
   //   visualization();

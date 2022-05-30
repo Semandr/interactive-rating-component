@@ -23,3 +23,22 @@ li {
 a {
   text-decoration: none;
 }
+.img {
+  display: inline-block;
+}
+.main {
+  background: var(--c-dark-blue);
+  padding: 4rem;
+  border-radius: 3rem;
+}
+.container {
+  min-height: 100vh;
+  width: 45rem;
+
+  padding: 1rem;
+
+  display: grid;
+  place-items: center;
+  grid-template: 1fr 5vh / 1fr;
+  margin: 0 auto;
+}

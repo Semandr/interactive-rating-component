@@ -1,0 +1,19 @@
+.title {
+  font-weight: 700;
+  color: var(--c-white);
+  letter-spacing: 0.5px;
+}
+
+.paragraph {
+  line-height: 1.7;
+  &__value {
+    background: var(--c-dark-blue-1);
+    color: var(--c-primary);
+    border-radius: 10rem;
+    padding: 1rem 2rem;
+  }
+  &_center {
+    text-align: center;
+    width: 98%;
+  }
+}
