@@ -44,6 +44,16 @@
 
 .paragraph {
   line-height: 1.7;
+  &__value {
+    background: var(--c-dark-blue-1);
+    color: var(--c-primary);
+    border-radius: 10rem;
+    padding: 1rem 2rem;
+  }
+  &_center {
+    text-align: center;
+    width: 98%;
+  }
 }
 
 //////////////////////////
@@ -95,4 +105,15 @@
 .rating__input:checked ~ .rating__value {
   background: var(--c-light-grey);
   color: var(--c-white);
+}
+
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
 }
